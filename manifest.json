@@ -1,0 +1,18 @@
+{
+  "name": "IAI Online",
+  "short_name": "PWA",
+  "start_url": "index.php",
+  "lang": "fr",
+  "display": "standalone",
+  "theme_color": "#FFFFFF",
+  "background_color": "#FFFFFF",
+  "orientation":"portrait-primary",
+  "icons" [
+    {
+      "scr": "/img/log_1.jpg",
+      "sizes": "512*512",
+      "type": "image/jpg"
+    }
+  ]
+
+}
