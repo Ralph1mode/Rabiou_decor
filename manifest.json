@@ -1,7 +1,7 @@
 {
-  "name": "IAI Online",
+  "name": "Rabios",
   "short_name": "PWA",
-  "start_url": "index.php",
+  "start_url": "index.html",
   "lang": "fr",
   "display": "standalone",
   "theme_color": "#FFFFFF",
@@ -9,7 +9,7 @@
   "orientation":"portrait-primary",
   "icons" [
     {
-      "scr": "/img/log_1.jpg",
+      "scr": "log_1.jpg",
       "sizes": "512*512",
       "type": "image/jpg"
     }
