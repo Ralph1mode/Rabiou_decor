@@ -15,7 +15,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-
+		<link rel="manifest"  href="mafifest.json"/>
 		<link rel="stylesheet" type="text/css" href="vendor/rs-plugin/css/settings.css" media="screen" />
 		<!-- Flat icon css -->
 		<link rel="stylesheet" href="vendor/flat-icon/flaticon.css">
@@ -173,6 +173,17 @@
 		<script src="js/jquery.simple-text-rotator.js"></script>
 		<!-- custom -->
 		<script src="js/custom.js"></script>
+			<script>
+					if('serviceWorker' in navigator){
+		    window.addEventLister('load',function() {
+			navigatir.serviceWorker.register('service-worker.js').then(function(){
+			    console.log('serviceWorker is load');
+			})
 
+		    })
+
+
+		}
+		</script>
 	</body>
 </html>
